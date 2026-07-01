@@ -1,0 +1,42 @@
+/* Aturan dasar untuk seluruh halaman web */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fa;
+  color: #262626;
+  margin: 0;
+}
+
+/* Mengatur bagian kepala (header) */
+header {
+  background-color: #065A82;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Mengatur bentuk kotak (Box Model) untuk setiap section */
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+/* Aturan untuk teks yang ingin ditonjolkan (menggunakan class) */
+.highlight {
+  color: #0E8F87;
+  font-weight: bold;
+}
+
+/* Sedikit tambahan agar tabel riwayat terlihat rapi */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #cccccc;
+  padding: 8px;
+  text-align: left;
+}
