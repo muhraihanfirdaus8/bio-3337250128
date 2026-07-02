@@ -1,0 +1,142 @@
+/* TEMA GELAP & BACKGROUND */
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+header, footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 30px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+  align-items: center;
+}
+
+.contact-links a {
+  color: #21B0A7;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  transition: color 0.3s;
+}
+
+.contact-links a:hover {
+  color: white;
+}
+
+
+section {
+  background-color: rgba(30, 30, 30, 0.85);
+  padding: 20px;
+  border: 1px solid #444; 
+  border-radius: 8px;
+}
+
+#pengalaman ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+#pengalaman li {
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #21B0A7; 
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #666;
+  padding: 8px;
+  text-align: left;
+}
+
+main {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+}
+
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Flexbox untuk Daftar Skill */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item {
+  background-color: #21B0A7;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 1000px; 
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .row-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 16px;
+  }
+
+  .skill-item {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+  background-color: #178780;
+  cursor: pointer;
+}
+
+  .contact-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+}
