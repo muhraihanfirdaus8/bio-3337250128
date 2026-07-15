@@ -1,2 +1,2 @@
-link repository tugas pertemuan 9;
-https://github.com/muhraihanfirdaus8/pertemuan9-laravel.git
+Berikut adalah link repository untuk tugas Pertemuan 9 (Laravel Database): 
+(https://github.com/muhraihanfirdaus8/teach-laravel.git)
